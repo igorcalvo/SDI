@@ -117,7 +117,7 @@ else:
         print(" Exemplo: para x - (1/2)y + 0.4y = 0 digite \'1,-1/2,0.4,0\'")
         instr = ["0" for z in range(n)]
         for i in range(n):
-            instr[i] = raw_input("\n ")
+            instr[i] = input("\n ")
             arrs[i] = instr[i].split(",")
         print("\n")
         solvesystem(arrs, n)
@@ -127,7 +127,7 @@ else:
         print(" Exemplo: para uma linha = (-1.2 t0 7/5)  digite \"-1.2,0,7/5\"")
         instr = ["0" for z in range(n)]
         for i in range(n):
-            instr[i] = raw_input("\n ")
+            instr[i] = input("\n ")
             arrd[i] = instr[i].split(',')
         print("\n")
         finddet(arrd, n)
@@ -137,7 +137,7 @@ else:
         print(" Exemplo: para uma linha = (-1.2 0 7/5)  digite \'-1.2,0,7/5\'")
         instr = ["0" for z in range(n)]
         for i in range(n):
-            instr[i] = raw_input("\n ")
+            instr[i] = input("\n ")
             for j in range(n):
                 print(instr[i])#
                 instr[i] += ',0'
